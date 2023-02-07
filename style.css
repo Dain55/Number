@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    column-gap: 7px;
+}
+.counter__button{
+    flex: 0 0 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter__input{
+    flex: 0 0 30px;
+}
+.counter__input input{
+    width: 100%;
+    background: #fff;
+    border: none;
+    text-align: center;
+}
+.random{
+    margin-left: 20px;
+}
